@@ -1,0 +1,43 @@
+#navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+#navbar ul .logo a {
+    margin: 0 calc(50vw - 85px);
+}
+
+.hero__right {
+    width: 100%;
+}
+
+.hero {
+    background-position: center left;
+    margin: auto;
+}
+
+#oferta .rodzaje {
+    height: auto;
+    display: block; 
+    font-size: 1.4rem;  
+}
+#oferta .rodzaje h3 {
+font-size: 1.8rem;
+}
+
+#oferta .rodzaje .element {
+    max-width: 400px;
+    min-width: 300px;
+    aspect-ratio: 0.8;
+    margin:auto;
+}
+
+#portfolio {
+padding: 5px;
+}
+#portfolio .kwadraty {
+    grid-template-columns: 1fr 1fr;
+
+}
