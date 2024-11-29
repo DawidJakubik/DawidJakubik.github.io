@@ -207,13 +207,21 @@ h2 {
     background-image: url(../images/slubne.jpg);
 }
 
-#oferta .rodzaje .slubne:hover {
+#oferta .rodzaje .slubne:hover,
+#oferta .rodzaje .slubne:focus,
+#oferta .rodzaje .slubne:active
+{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../images/slubne.jpg);
 }
 
 
 #oferta .rodzaje .element:hover p,
-#oferta .rodzaje .element:hover h3 {
+#oferta .rodzaje .slubne:focus p,
+#oferta .rodzaje .slubne:active p,
+#oferta .rodzaje .element:hover h3
+#oferta .rodzaje .slubne:focus h3,
+#oferta .rodzaje .slubne:active h3
+{
     visibility: visible;
     background-color:transparent;
 
