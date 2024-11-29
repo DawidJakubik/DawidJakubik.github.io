@@ -110,17 +110,7 @@ h2 {
     .hero {background-position: center left;}
 }
 
-@media(max-width:1000px) {
-    .hero__right { width: 80%;}
-    .hero {background-position: center left;
-    margin:auto;}
-}
 
-@media(max-width:650px) {
-    .hero__right { width: 100%;}
-    .hero {background-position: center left;
-    margin:auto;}
-}
 
 /* @media dla mniejszych zmienic szerokosc na 100% */
 
@@ -207,21 +197,13 @@ h2 {
     background-image: url(../images/slubne.jpg);
 }
 
-#oferta .rodzaje .slubne:hover,
-#oferta .rodzaje .slubne:focus,
-#oferta .rodzaje .slubne:active
-{
+#oferta .rodzaje .slubne:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../images/slubne.jpg);
 }
 
 
 #oferta .rodzaje .element:hover p,
-#oferta .rodzaje .slubne:focus p,
-#oferta .rodzaje .slubne:active p,
-#oferta .rodzaje .element:hover h3
-#oferta .rodzaje .slubne:focus h3,
-#oferta .rodzaje .slubne:active h3
-{
+#oferta .rodzaje .element:hover h3 {
     visibility: visible;
     background-color:transparent;
 
@@ -310,7 +292,6 @@ visibility: hidden;
 #contact-form .form-group {
     padding: 5px;
 
-
 }
 
 #contact-form input {
@@ -367,10 +348,14 @@ visibility: hidden;
 
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 5px;
 }
 
 #contact-info .box {
     margin: 20px 0;
     width: 33%;
+}
+
+#contact-info .box i {
+margin-bottom:15px;
 }

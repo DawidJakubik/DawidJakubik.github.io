@@ -41,3 +41,22 @@ padding: 5px;
     grid-template-columns: 1fr 1fr;
 
 }
+
+#contact-form {
+    grid-template-columns: 1fr;
+}
+
+#contact-form .form-group {
+margin: auto;
+text-align: center;;
+}
+
+
+#contact-form .form-group label {
+        display: block;
+    
+    }
+
+#contact-info {
+font-size: 0.8rem;
+}
